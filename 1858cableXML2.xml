@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <entries date="1858-08-22"> August 22. <signal stype="ntv"/>Newfoundland to Valentia. <messages>
+            “Can you receive message?” <intermission delay="1 hour"> After an hour’s intermission, </intermission>
+            <restate count="2"> “How do you receive?" </restate>
+            <intermission delay="7 hours"> Seven hours’intermission, <!--A long intermission-->
+            </intermission>
+            <restate count="3"> “Do you receive this?” </restate>
+        </messages>
+        <signal stype="vtn"/>Valentia to Newfoundland. <messages> “Can you read this?” </messages>
+        <signal stype="ntv"/>Newfoundland to Valentia. <messages> “Yes. Can you take message now?” </messages>
+        <signal stype="vtn"/>Valentia to Newfoundland. <messages> “Yes.”
+            <!--Newfoundland receiving confirmation at last-->
+        </messages>
+        <signal stype="ntv"/>Newfoundland to Valentia. <messages> “August 21, New York. <signature
+                namecontents="Right-Honorable Sir Walter Carden, Lord Mayor of London">
+                Right-Honorable Sir Walter Carden, <title titlecontents="Lord Mayor of London"> Lord
+                    Mayor of London </title>
+            </signature> :—I congratulate your Lordship upon the successful laying of the Atlantic
+            Cable, uniting continents Europe and America, cities London and New York, Great Britain
+            and the United States. It is a triumph of science and energy over time and space,
+            uniting more closely the bonds of peace and commercial prosperity,—introducing an era in
+            the world’s history pregnant with results beyond the conception of a finite mind.
+                <signature namecontents="Daniel F. Tiemann, Mayor"> DANIEL F. TIEMANN, <title
+                    titlecontents="Mayor"> Mayor
+                    <!--No additional information included in the title-->
+                </title>
+            </signature>
+        </messages>
+        <signal stype="vtn"/>Valentia to Newfoundland. <messages> “Mayor’s message received.”
+            “Insulate for two hours, and say when you commence. Repeat this.” </messages>
+        <signal stype="ntv"/>Newfoundland to Valentia. <messages> “Understand. Cable insulated.”
+            “Have you finished testing?” “Repeat. Send much slower.” “Signals are good, but your
+            sending comes very bad. Repeat all.” “Please repeat service.” “Repeat service message.”
+            “Repeat service now.” The above were all the signals read after the transmission of the
+            Mayor’s message at 2.15 P.M., until 10.19 P.M. </messages>
+        <signal stype="vtn"/>Valentia to Newfoundland. <messages> “Thomson to De Sauty:—Put delicate
+            detector in circuit, and note weak currents from us, thirty minutes each way. Say if
+            ready.” </messages>
+        <signal stype="ntv"/>Newfoundland to Valentia. <messages> “Repeat word after ‘us.’” </messages>
+        <signal stype="vtn"/>Valentia to Newfoundland. <messages> “Thirty.” </messages>
+        <signal stype="ntv"/>Newfoundland to Valentia. <messages> “Understand. Ready now.”
+        </messages>
+    </entries>
+</root>
