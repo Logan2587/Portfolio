@@ -1,8 +1,9 @@
             body{background-color:mediumspringgreen}
-            nav.list{background-color:white;}
+            nav ul.list{background-color:white;}
             p{background-color:aquamarine;
             color:darkgreen;
             padding:1.5em;
             }
             ul{background-color:skyblue;}
             ol{background-color:teal;}
+            section.list{background-color:aqua;}
