@@ -7,3 +7,17 @@
             ul{background-color:skyblue;}
             ol{background-color:teal;}
             section.list{background-color:aqua;}
+            section.flex{
+                display:flex;
+                background-color:white;
+            }
+            figure.photo{
+                background-color:blue;
+                color:white;
+            }
+            img#snowhouse{
+                width:500px
+            }
+            img#deserthouse{
+                width:300px
+            }

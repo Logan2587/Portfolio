@@ -1,21 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-    <!-- Try opening this file on your local computer in a web browser (Firefox, Chrome, etc). 
-     * On Windows, go to the browser and type control + o and browse to find this file to open it.
-     * On Mac, go to the browser and type command + o and browse to find this file to open it. 
-     Look for the text in the <title> element in the tab above the browser search bar. Do you see it? 
-    -->
     <head>
-        <!-- What's in the <head> element is a "meta" area not for display. 
-            It holds important information about the website's contents.
-            The text inside the <title> element does show in the top tab of a web browser. 
-             The <head> is where we will include info about styling the site, too. -->
         <title>This is a title!</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- Here is a place where we can add a little styling code called CSS to this page. 
-            I used it to apply a background color to the body element.
-        -->
         <link rel="stylesheet" type="text/css" href="style.css"/>
     </head>
     <body>
@@ -26,49 +14,16 @@
                 <li><a href="resume.html">Resume</a></li>
             </ul>
         </nav>
-        <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>This is a heading!</h1>
-        <p>Hooray! These are some
-                <strong>words</strong> I have edited. Here is <a
-                    href="https://behrend.psu.edu/">The Behrend home page!</a></p>
-        <p>One of the best resources for learning HTML is <a href="https://www.w3schools.com/html/default.asp">w3Schools</a>. 
-            Here is a reference for <a href="https://htmlcolorcodes.com/">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the
-            page.</p>
-        <h1>&#128507;</h1>
-        <p>Rock emoji</p>
-        <h2>What are block elements good for?</h2>
-        <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted list.</p>
-        <ul>
-            <li>headings</li>
-            <li>paragraphs</li>
-            <li>lists</li>
-            <li>tables</li>
-            <li>images</li>
-        </ul>
-        <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very similar to the <q>unordered</q> list. 
-            You have to see the difference by viewing in a web browser.</p>
-        <ol>
-            <li>morning</li>
-            <li>noon</li>
-            <li>afternoon</li>
-            <li>evening</li>
-            <li>night</li>
-        </ol>
-        <h3>Placing Another Heading Here!</h3>
-        <p>Here is some text for a block element im putting under the new heading!</p>
-        <h4>Headings can be smaller.</h4>
-        <h1>Or they can be larger.</h1>
-        <h6>This is the smallest heading. H6.</h6>
-        <figure>
-            <img src="images/deserthouse.png"/>
-            <figcaption>An image of a desert house i made in Terraria!</figcaption>
-        </figure>
-        <figure>
-            <img src="images/snowhouse.png"/>
-            <figcaption>An image of a snow house I made a few minutes before i decided to add a chimney to the roof.</figcaption>
+<h1>Gallery</h1>
+        <section class="flex">
+            <figure class="photo">
+                <img id="snowhouse" src="images/snowhouse.png"/>
+                <figcaption>The snow house before an asteroid landed on it and blew it up! I still need to rebuild the roof.</figcaption>
             </figure>
-        <h1>To end the document...</h1>
-        <p>Here is a <a href="https://terraria.wiki.gg/wiki/Terraria">link</a> to the official Terraria wiki.</p>
+            <figure class="photo">
+                <img id="deserthouse" src="images/deserthouse.png"/>
+                <figcaption>The desert house that got infected. Still needs to be purified.</figcaption>
+            </figure>
+            </section>
     </body>
 </html>
