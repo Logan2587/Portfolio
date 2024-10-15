@@ -1,23 +1,45 @@
-            body{background-color:mediumspringgreen}
-            nav ul.list{background-color:white;}
-            p{background-color:aquamarine;
-            color:darkgreen;
-            padding:1.5em;
+            body.home{
+            background-image:url(images/Leyndell.webp);
+            background-repeat:no-repeat;
+            background-size:100% 100%;
+            min-height:100vh;
+            background-position:center;
             }
-            ul{background-color:skyblue;}
-            ol{background-color:teal;}
-            section.list{background-color:aqua;}
-            section.flex{
+            div.nameheader{
+            align-items:center;
+            text-align:center;
+            }
+            div.flexhome{
                 display:flex;
-                background-color:white;
+                flex-direction:row;
+                justify-content:space-evenly;
+                align-items:center;
+                text-align:center;
+                min-height:100vh;
             }
-            figure.photo{
-                background-color:blue;
+            .button{
+                border:none;
+                cursor:pointer;
+                appearance:none;
+                background-image:url(images/Sword.jpg);
+                background-color:inherit;
+                background-size:contain;
+                background-repeat:no-repeat;
+                width:250px;
+                height:250px;
                 color:white;
+                font-size:2em;
+                text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+                text-align:center;
+                line-height:250px;
+                text-decoration:none;
+                }
+                section.flexgallery{
+                display:flex;
             }
-            img#snowhouse{
+            img#deardata{
                 width:500px
             }
-            img#deserthouse{
-                width:300px
-            }
+            img#thumbsup{
+                width:500px
+                }
