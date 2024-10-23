@@ -4,26 +4,44 @@
         <title>This is a title!</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <style>
+            body {
+                background-color: #4e6383;
+            }</style>
     </head>
     <body>
-        <nav class="list">
-            <ul class="list">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="resume.html">Resume</a></li>
-            </ul>
-        </nav>
-<h1>Gallery</h1>
+        <div class="Navbar">
+            <nav class="list">
+                <a href="index.html" class="Navlink">Home</a>
+                <a href="gallery.html" class="Navlink">Gallery</a>
+                <a href="resume.html" class="Navlink">Resume</a>
+            </nav>
+        </div>
+        <div>
+        <div class="Galleryheader"><h1 class="Galleryheadertext">Gallery</h1></div>
+            <div></div>
+        </div>
         <section class="flexgallery">
             <figure>
-                <img id="deardata" src="images/DearData.jpg" alt="Dear Data Photo"/>
-                <figcaption>A project from Digit 100 involving the visual representation of personal data.</figcaption>
+                <img id="deardata" src="images/DearData.jpg" alt="Dear Data Photo" />
+                <figcaption class="Figcapgallery">A project from Digit 100 involving the visual
+                    representation of personal data.</figcaption>
             </figure>
             <figure>
-                <img id="thumbsup" src="images/thumbsup.jpg" alt="Hooray!"/>
-                <figcaption>I didn't know what else to put here.</figcaption>
+                <img id="thumbsup" src="images/thumbsup.jpg" alt="Hooray!" />
+                <figcaption class="Figcapgallery">I didn't know what else to put here.</figcaption>
             </figure>
-            </section>
+        </section>
+        <div class="lidarscan">
+            <figure>
+                <iframe width="640" height="360" data-original-width="640"
+                    data-original-height="360"
+                    src="https://www.thinglink.com/view/scene/1900628333570294437"
+                    style="border: none;"></iframe>
+                <figcaption class="Figcapgallery">An annotated model of a 3D space that we used
+                    lidar scanners to map out.</figcaption>
+            </figure>
+        </div>
     </body>
 </html>
