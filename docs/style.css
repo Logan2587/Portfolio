@@ -53,17 +53,27 @@ section.flexgallery {
     font-size: 3.5em;
     text-shadow: 3px 3px 0 #000;
 }
-.Galleryheader{
-    background-color:#a5a5a5;
+.Gallerywhitebar{
+    background-color:white;
+    width:100%;
+    height:7vh;
+    z-index:-1;
+}
+.Galleryheader {
     width:15vw;
     height:10vh;
-    line-height:10vh;
+    background-color:#a5a5a5;
     text-align:center;
-    z-index:1;
+    line-height:10vh;
 }
 .Galleryheadertext{
     color:white;
     text-shadow:2px 2px 0 #100;
+}
+.Gallerytext {
+    color:white;
+    padding:1.5em;
+    text-shadow:2px 2px 0 #000;
 }
 div.lidarscan {
     display: flex;
