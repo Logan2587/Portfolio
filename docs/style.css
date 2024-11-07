@@ -74,7 +74,7 @@ section.flexgallery {
 }
 .Headertext{
     color:white;
-    text-shadow:2px 2px 0 #100;
+    text-shadow:2px 2px 0 #000;
 }
 .Titletext {
     color:white;
@@ -105,5 +105,33 @@ section.Resumeholder{
     background-color:white;
 }
 section.WCE{
+    background-color:white;
+}
+div.projectlink{
+    background-color:#002762;
+    text-align:center;
+}
+.txtlink{
+    font-size:4em;
+    text-decoration:none;
+    color:white;
+    text-shadow:3px 3px 0 #000;
+}
+div.txtaabstract{
+    background-color:white;
+}
+section.txtadisplay{
+display:flex;
+justify-content:center;
+}
+img.txtphoto{
+height:90vh;
+}
+figcaption.txtafigcaption{
+    color:white;
+    font-size:1.5em;
+    text-shadow:2px 2px 0 #000;
+}
+div.txtabody{
     background-color:white;
 }
